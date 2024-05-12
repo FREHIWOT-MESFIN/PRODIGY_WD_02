@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkkhaki;
+}
+#time{
+    color: blue;
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: blue;
+    cursor: pointer;
+}
+button:hover{
+    background: blue;
+    color: white;
+}
+.lap{
+    color: blue;
+    margin: 10px;
+}
+.lap div{
+    margin: 5px;
+}
